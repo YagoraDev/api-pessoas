@@ -1,0 +1,20 @@
+{
+  "name": "apipessoas",
+  "version": "1.0.0",
+  "description": "Criação de uma API REST que realize as operações CRUD",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "Yago Oliveira Siqueira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^4.21.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
